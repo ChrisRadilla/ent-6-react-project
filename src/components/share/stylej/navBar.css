@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: orange ;
+}
+.navbar_list{
+    display: flex;
+    gap: 20px;
+}
