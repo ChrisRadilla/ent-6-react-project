@@ -1,4 +1,4 @@
-.cartpord{
+.cartprod{
     width: 300px;
     display: grid;
     grid-template-columns:repeat(3, 1fr); 
@@ -12,10 +12,10 @@
 .cartprod_title{
     grid-column: span 3;
 }
-.cartpord_container{
+.cartprod_container{
     display: flex;
 }
-.cartpord_container span{
+.cartprod_container span{
     padding: 3px 10px;
 }
 .cartprod_price{

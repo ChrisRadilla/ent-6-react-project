@@ -26,7 +26,6 @@ getProduct(url)
       <ProdInfo
       product={product}
       />
-   
       <ProdSimilar
         product={product}
         

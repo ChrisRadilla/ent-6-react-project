@@ -4,24 +4,25 @@ import axios from 'axios';
 import getToken from "../../utils/getToken";
 
 const purchases = createSlice({
-    name: 'purchases',
-    initialState: [],
-    reducers: {
-      setPurchases: (_value, action) => action.payload,  
-    },
+  name: 'purchases',
+  initialState: [],
+  reducers: {
+    setPurchases: (_value, action) => action.payload,
+  },
 });
 
 export const { setPurchases } = purchases.actions;
 
 export default purchases.reducer;
 
-export const getPurchasesThunk = (data) => (dispatch) => {
-  axios.get(url, data, getToken()) 
-  .then( res => dispatch(setPurchases(res.data)))
-  .catch(err => console.log(err));
-} 
+export const getPurchasesThunk = () => (dispatch) => {
+  axios.get(url, getToken())
+    .then(res => dispatch(setPurchases(res.data)))
+    .catch(err => console.log(err));
+}
 
 export const postPurchasesThunk = (data) => (dispatch) => {
   axios.post(url, data, getToken())
-  .then( res => dispatch(res.data))
-  .catch(err => console.log(err));}
+    .then(res => console.log((res.data)))
+    .catch(err => console.log(err));
+}
