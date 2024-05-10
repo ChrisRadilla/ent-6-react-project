@@ -20,11 +20,11 @@ const submit = data => {
   return (
     <form className='filterprice' onSubmit={handleSubmit(submit)}>
         <div className='filterprice_item'>
-            <label htmlFor="from">From</label>
+            <label htmlFor="from">From:  </label>
             <input {...register('from')} id='from' type="text" />
         </div>
         <div className='filterprice_item'>
-            <label htmlFor="to">To</label>
+            <label htmlFor="to">To: </label>
             <input {...register('to')} id='to' type="text" />
         </div>
         <button className='filterprice_btn'>Filter Price</button>

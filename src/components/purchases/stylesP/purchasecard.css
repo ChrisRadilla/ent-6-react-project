@@ -1,7 +1,7 @@
 .purchasecard{
     width: 300px;
     padding: 20px;
-    border: 1px solid;
+    border: goldenrod 4px solid;
     border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -52,7 +52,7 @@ body.classList.toggle("dark");
               <FilterCategory
                 setProdCategory={setProdCategory}
               />
-        <button className='homepage_btn' onClick={handleDark}> mode</button>
+        <button className='homepage_btn' onClick={handleDark}></button>
     </div> 
     <div className='homepage_container'>
   {

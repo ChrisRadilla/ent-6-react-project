@@ -1,7 +1,7 @@
 .prodinfo{
     min-width: 300px;
     max-width: 500px;
-    border: 1px solid;
+    border: goldenrod 4px solid;
     padding: 20px;
     border-radius: 20px;
 }

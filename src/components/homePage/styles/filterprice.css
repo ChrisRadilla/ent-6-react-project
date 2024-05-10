@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Atma:wght@300;400;500;600;700&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bayon&family=Bruno+Ace&family=Bungee+Shade&family=Calligraffitti&family=Castoro+Titling&family=Cinzel+Decorative:wght@400;700;900&family=Cookie&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Delius+Swash+Caps&family=Diplomata&family=Emblema+One&family=Galada&family=Holtwood+One+SC&family=Honk&family=Irish+Grover&family=Jaini+Purva&family=Kalam:wght@300;400;700&family=Kite+One&family=Kumar+One+Outline&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Loved+by+the+King&family=Lugrasimo&family=Martian+Mono:wght@100..800&family=Merienda:wght@300..900&family=Mynerve&family=Pacifico&family=Patrick+Hand+SC&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Rampart+One&family=Reenie+Beanie&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Trade+Winds&display=swap');
+
+
 .filterprice{
-    border: 1px solid;
+    border:goldenrod 4px solid;
     padding: 10px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-}
+} 
 .filterprice_item{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-family: "Merienda", cursive;
 
 }
 .filterprice_item input {

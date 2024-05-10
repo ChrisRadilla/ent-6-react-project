@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 
 const CartProd = ({ prod }) => {
   const dispatch = useDispatch();
-
+ 
   const handleDelete = () => {
     dispatch(deleteCartThunk("/cart", prod.id));
   };

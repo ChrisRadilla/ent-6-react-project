@@ -22,3 +22,25 @@
 .dark .homepage_btn::before{
     content: 'Light';
 }
+
+.homepage_btn{
+    border-radius: 50%;
+    background-color: goldenrod;
+    color: black;
+    border: black solid 2px;
+}
+.homepage_btn:hover{
+    color: goldenrod;
+    background-color: black;
+    border: goldenrod solid 2px;
+}
+.dark .homepage_btn{
+    background-color: black;
+    color: goldenrod;
+    border: goldenrod 2px solid;
+}
+.dark .homepage_btn:hover{
+    background-color: goldenrod;
+    color: black;
+    border: black 2px solid;
+}

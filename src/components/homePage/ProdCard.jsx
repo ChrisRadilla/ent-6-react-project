@@ -21,7 +21,7 @@ const ProdCard = ({prod}) => {
     }));
         }
 
-    return (
+    return ( 
     <article className='prodcard'>
         <figure className='prodcard_img'>
             <img className='prodcard_img-1' src={prod.images[0].url} alt="product image" />

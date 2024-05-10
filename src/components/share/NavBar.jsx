@@ -9,7 +9,8 @@ const  NavBar = () => {
          <ul className='navbar_list'>
             <li className='navbar_item'><Link to='/login'>Login</Link></li>
             <li className='navbar_item'><Link to='/purchases'>Purchase</Link></li>
-            <li className='navbar_item'><Link to='/cart'>Cart</Link></li>
+            <li className='navbar_item'><Link to='/cart'><ion-icon name="cart-outline"></ion-icon>
+</Link></li>
          </ul>
     </nav>
   )
